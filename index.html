@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-blue-500">
+    <div
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+    >
+      <div
+        class="bg-white shadow-2xl rounded-md gap-5 w-[80vw] md:w-[30vw] flex flex-col justify-center p-8"
+      >
+        <input
+          type="text"
+          id="textfeild"
+          placeholder="Your Speech in Text"
+          class="outline-none border-[1px] border-gray-300 px-8 py-3.5"
+        />
+        <div class="flex items-center space-x-5 justify-center">
+          <button
+            id="start"
+            class="bg-blue-500 text-white px-8 py-2 rounded-full cursor-pointer font-semibold"
+          >
+            Start
+          </button>
+          <button
+            id="end"
+            class="bg-blue-500 text-white px-8 py-2 rounded-full cursor-pointer font-semibold"
+          >
+            end
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
