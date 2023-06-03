@@ -7,27 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body class="bg-blue-500">
-    <div
-      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-    >
+  <body>
+    <div class="flex justify-end mx-5 my-0.5">
       <div
-        class="bg-white shadow-2xl rounded-md gap-5 w-[80vw] md:w-[30vw] flex flex-col justify-center p-8"
+        class="bg-[#2d2d2d] shadow-2xl shadow-slate-800 rounded-xl gap-5 w-[60vw] md:w-[20vw] flex flex-col justify-center p-8"
       >
-      
-        <div id="textfield"></div>
-        <div class="flex items-center space-x-5 justify-center">
+        <div id="textfield" class="text-white"></div>
+        <div class="mx-auto">
           <button
             id="start"
-            class="bg-blue-500 text-white px-8 py-2 rounded-full cursor-pointer font-semibold"
+            class="bg-pink-500 text-white text-sm px-8 py-2 rounded-full cursor-pointer font-semibold"
           >
             Start
           </button>
           <button
             id="end"
-            class="bg-blue-500 text-white px-8 py-2 rounded-full cursor-pointer font-semibold"
+            class="hidden bg-pink-500 text-sm text-white px-8 py-2 rounded-full cursor-pointer font-semibold"
           >
-            end
+            Pause
           </button>
         </div>
       </div>
